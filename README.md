@@ -1,1 +1,1 @@
-# Login-and-Registartion---HTML-CSS-JavaScript
+# Login-and-Registration---HTML-CSS-JavaScript
