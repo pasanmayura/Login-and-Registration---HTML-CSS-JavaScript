@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script> 
+</head>
+<body>
+    <div class="video-background">
+        <video autoplay muted loop>
+            <source src="bg.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="container">        
+        <div class="col-md-6" >
+            <form class="login" id="login">
+                <h2>Login here.</h2>
+                <div class="form-group">
+                <label for="inputEmail">Email</label>
+                <input type="email" class="form-control" id="inputEmail" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                <label for="inputPassword">Password</label>
+                <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                </div>
+                <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="rememberMe">
+                <label class="form-check-label" for="rememberMe">Remember me</label>
+                </div>
+                <a href="#" class="d-block mb-3">Forgot password?</a>
+                <button type="submit" class="btn btn-primary btn-block">Login</button>
+                <div class="text-center mt-3">
+                <p>or login with</p>
+                <button type="button" class="btn btn-outline-primary">Facebook</button>
+                <button type="button" class="btn btn-outline-danger">Google</button>
+                <button type="button" class="btn btn-outline-info">Twitter</button>
+                </div>
+            </form>
+            <form id="register">
+                <h2>Register here.</h2>
+                <div class="form-group">
+                    <label for="inputEmail">Email</label>
+                    <input type="email" class="form-control" id="inputEmail" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                    <label for="inputPassword">Password</label>
+                    <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                </div>
+                <div>
+                    <label for="inputConfirmPassword">Confirm Password</label>
+                    <input type="password" class="form-control" id="inputConfirmPassword" placeholder="Confirm Password">
+                </div><br>
+                <button type="submit" class="btn btn-primary btn-block">Register</button>                
+            </form>
+        </div>
+        
+        <div class="col-md-6" id="register-full">
+            <div class="text-center" id="register-before">
+                <h2>Start your journey now</h2>
+                <p>If you don't have an account yet, create an account and start your journey.</p>
+                <button type="button" class="btn btn-success" id="registerButton">Register</button>                
+            </div>
+            <div class="text-center" id="register-after">
+                <h2>Continue your journey</h2>
+                <p>If you already have an account.</p>
+                <button type="button" class="btn btn-success" id="loginButton">Login</button>                
+            </div>
+            
+        </div>        
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
